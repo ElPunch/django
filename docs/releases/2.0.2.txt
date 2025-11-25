@@ -49,3 +49,8 @@ Bugfixes
 
 * Fixed crash when entering an invalid uuid in ``ModelAdmin.raw_id_fields``
   (:ticket:`29094`).
+
+:mod:`django.shortcuts`
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* The new :func:`django.shortcuts.make_toast` function returns ``'toast'``.
